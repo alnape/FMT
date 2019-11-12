@@ -1,12 +1,12 @@
 #! /usr/bin/env python3.6
 import argparse
 import requests
-from bthread import BookingThread
+import unicodecsv as csv
+
+from bookingThread import BookingThread
 from bs4 import BeautifulSoup
-from file_writer import FileWriter
 from datetime import datetime, timedelta
 from time import time
-import unicodecsv as csv
 
 hotelsDict = []
 
@@ -62,7 +62,7 @@ def get_booking_page(session, offset, destination, checkInYear, checkInMonth, ch
             'offset={offset}'.format(offset=offset, destination=destination, \
                                     checkInYear=checkInYear, checkInMonth=checkInMonth, checkInDay=checkInDay, \
                                     checkOutYear=checkOutYear, checkOutMonth=checkOutMonth, checkOutDay=checkOutDay)
-    
+    #print(url)
     r = requests.get(url, headers= {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/48.0'})
     html = r.content
     parsed_html = BeautifulSoup(html, 'html.parser')
@@ -110,7 +110,7 @@ def process_hotels(session, offset, advance, destination, CheckInYear, CheckInMo
         hotelsDict.append(data)
 
 
-def prep_data(advance=1, destination='Valencia', checkInYear=2019, checkInMonth=10, checkInDay=1, checkOutYear=2019, checkOutMonth=10, checkOutDay=2):
+def prep_data(destination='Valencia', checkInYear=2019, checkInMonth=10, checkInDay=1, checkOutYear=2019, checkOutMonth=10, checkOutDay=2):
     '''
     Prepare data for saving
     :return: hotels: set()
@@ -128,10 +128,9 @@ def prep_data(advance=1, destination='Valencia', checkInYear=2019, checkInMonth=
 
     threads = []
     for i in range(int(tot_pages)):
-        #offset += 50
-        t = BookingThread(session, offset, advance, destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay, process_hotels)        
+        t = BookingThread(session, offset, 1, destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay, process_hotels)        
         threads.append(t)
-        offset += 50
+        offset += 25
     for t in threads:
         t.start()
     for t in threads:
@@ -143,19 +142,19 @@ def prep_data(advance=1, destination='Valencia', checkInYear=2019, checkInMonth=
     return hotels_
 
 
-def get_data(advance=1, destination='Valencia', checkInYear=2019, checkInMonth=10, checkInDay=1, checkOutYear=2019, checkOutMonth=10, checkOutDay=2):
+def get_data(destination='Valencia', checkInYear=2019, checkInMonth=10, checkInDay=1, checkOutYear=2019, checkOutMonth=10, checkOutDay=2):
     '''
     Get all accomodations in Valencia and save them in file
     :return: csv file
     '''
     print('Preparing data...'+ datetime.now().strftime("%H:%M:%S"))
-    hotels_list = prep_data(advance, destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay)
+    hotels_list = prep_data(destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay)
     print('Saving data...'+ datetime.now().strftime("%H:%M:%S"))
-    save_data_csv(hotels_list, destination, advance)
+    save_data_csv(hotels_list, destination)
 
-def save_data_csv(data, destination, advance):
+def save_data_csv(data, destination):
     today = datetime.now()   
-    filename = ".\\Address\\" + today.strftime("%Y%m%d") + '_' + today.strftime("%H%M%S") + '_Booking_' + destination + '.csv'
+    filename = ".\\data\\properties\\" + today.strftime("%Y%m%d") + '_' + today.strftime("%H%M%S") + '_Booking_' + destination + '.csv'
     
     print (" Writing to output file <%s>..." %filename)
     with open(filename, 'wb') as csvfile:
@@ -170,18 +169,6 @@ def save_data_csv(data, destination, advance):
         csvfile.close()
         print ("Process successfully finished !!!")
 
-
-#def save_data(data, out_format, destination):
-    '''
-    Saves hotels list in file
-    :param data: hotels list
-    :param out_format: json, csv or excel
-    :return:
-    '''
-    #writer = FileWriter(data, out_format, destination)
-    #file = writer.output_file()
-
-    #print('All accommodations are saved. You can find them in', file, 'file')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -200,4 +187,4 @@ if __name__ == "__main__":
     checkOutMonth = checkOutDate.strftime("%m")
     checkOutDay = checkOutDate.strftime("%d")
 
-    get_data(args.advance, args.destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay)
+    get_data(args.destination, checkInYear, checkInMonth, checkInDay, checkOutYear, checkOutMonth, checkOutDay)

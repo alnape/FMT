@@ -20,4 +20,3 @@ class BookingThread (threading.Thread):
       self.process_hotels(self.session, self.offset, self.days, self.destination, \
                            self.checkInYear, self.checkInMonth, self.checkInDay, \
                               self.checkOutYear, self.checkOutMonth, self.checkOutDay)
-
