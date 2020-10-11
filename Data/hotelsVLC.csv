@@ -1,0 +1,97 @@
+propertyId;propertyType;name;district;coords;zipcode
+12656;Hotel;Sol Playa;Poblados marítimos, Valencia;-0.323789566755295,39.4650841913551;46011
+13270;Hotel;Melia Plaza Valencia;Ciutat Vella, Valencia;-0.376952290534973,39.4710278753057;46002
+14441;Hotel;Hotel Turia;Campanar, Valencia;-0.388724505901337,39.4802276264005;46009
+14580;Hotel;El Coso;Poblados marítimos, Valencia;-0.323579013347626,39.4637061283809;46011
+23332;Hotel;Hotel Miramar;Poblados marítimos, Valencia;-0.323690325021744,39.4642807560034;46011
+24498;Hotel;El Globo;Poblados marítimos, Valencia;-0.323730558156967,39.4647808334785;46011
+90443;Hotel;Petit Palace Plaza de la Reina;Ciutat Vella, Valencia;-0.37554144859314,39.47305074477;46002
+90484;Hotel;Eurostars Gran Valencia;Benicalap, Valencia;-0.398129671812057,39.4915644103027;46015
+90495;Hotel;Eurostars Acteón;Camins al Grau, Valencia;-0.347753763198853,39.4637309772411;46023
+90578;Hotel;Catalonia Excelsior;Ciutat Vella, Valencia;-0.375754684209824,39.4714140263729;46002
+90719;Hotel;Ad Hoc Monumental;Ciutat Vella, Valencia;-0.372126996517181,39.4770693928241;46003
+90725;Hotel;NH Valencia Las Ciencias;Quatre Carreres, Valencia;-0.357551872730255,39.455673269361;46013
+90727;Hotel;NH Valencia Center;Campanar, Valencia;-0.387002527713776,39.4806302882865;46009
+90729;Hotel;NH Ciudad de Valencia;Camins al Grau, Valencia;-0.343310683965683,39.463001038275;46023
+90730;Hotel;Hotel Villacarlos;Camins al Grau, Valencia;-0.355198234319687,39.4665481592417;46023
+90731;Hotel;NH Valencia Las Artes;Quatre Carreres, Valencia;-0.357581377029419,39.455673269361;46013
+90792;Hotel;Petit Palace Ruzafa;Eixample, Valencia;-0.376139581203461,39.4626821405508;46006
+90885;Hotel;One Shot Palacio Reina Victoria 04;Ciutat Vella, Valencia;-0.37528395652771,39.4703342473632;46002
+90886;Hotel;Hotel Dimar;Eixample, Valencia;-0.365028530359268,39.4684106877284;46005
+90896;Hotel;Sorolla Centro;Ciutat Vella, Valencia;-0.375721156597137,39.4682740280778;46002
+91047;Hotel;Hotel Conqueridor;Extramurs, Valencia;-0.381288081407547,39.4679313424706;46007
+91063;Hotel;AC Hotel Valencia;Camins al Grau, Valencia;-0.343730449676514,39.4588128007715;46023
+91106;Hotel;Hotel Kramer;Campanar, Valencia;-0.393442511558533,39.4807938366645;46015
+91144;Hotel;Las Arenas Balneario Resort;Poblados marítimos, Valencia;-0.324724316596985,39.4664394498137;46011
+91182;Hotel;Silken Puerta Valencia;Valencia;-0.355652868747711,39.4684872998393;46021
+91183;Hotel;Vincci Lys;Ciutat Vella, Valencia;-0.374841392040253,39.4683206166252;46002
+91206;Hotel;Hotel Neptuno;Poblados marítimos, Valencia;-0.323499888181686,39.4631677342312;46011
+91223;Hotel;Expo Hotel Valencia;Campanar, Valencia;-0.391283333301544,39.4799491776147;46009
+91285;Hotel;Hotel Valencia Center;Camins al Grau, Valencia;-0.349481105804443,39.459939352719;46023
+91497;Hotel;SH Valencia Palace;El Pla del Real, Valencia;-0.360142886638641,39.4675203245768;46023
+91520;Hotel;Eurostars Rey Don Jaime;Camins al Grau, Valencia;-0.356647968292236,39.4634214012245;46023
+91522;Hotel;Hotel Valencia Oceanic Managed by Melia Hotels International;Camins al Grau, Valencia;-0.347997844219208,39.4582433052569;46023
+91988;Hotel;Barceló Valencia;Camins al Grau, Valencia;-0.352583080530167,39.4607003862247;46023
+92242;Hotel;B&B Hotel Valencia Ciudad de las Ciencias;Quatre Carreres, Valencia;-0.36796823143959,39.4455009192576;46013
+92327;Hotel;Zenit Valencia;Extramurs, Valencia;-0.377895087003708,39.4671279399899;46007
+92328;Hotel;SEA YOU HOTEL PORT VALENCIA;Poblados marítimos, Valencia;-0.333398580551147,39.4608194587415;46011
+92412;Hotel;Hotel Mediterraneo Valencia;Ciutat Vella, Valencia;-0.379478931427002,39.4696696003696;46001
+92776;Hotel;Ilunion Aqua 3;Camins al Grau, Valencia;-0.345899015665054,39.4559290346383;46001
+92777;Hotel;Ilunion Aqua 4;Camins al Grau, Valencia;-0.345901697874069,39.4559259281831;46001
+92818;Hotel;Ilunion Valencia 3;Benicalap, Valencia;-0.39826512336731,39.4917714009523;46015
+92852;Hotel;Port Feria Valencia;Valencia;-0.423440337181091,39.5039682717133;46035
+92883;Hotel;Hostal Venecia;Ciutat Vella, Valencia;-0.376956313848495,39.4708394576531;46002
+92956;Hotel;SH Ingles Boutique Hotel;Ciutat Vella, Valencia;-0.374445766210556,39.4728830372551;46002
+93321;Hotel;The Westin Valencia;El Pla del Real, Valencia;-0.361496061086655,39.4733561370459;46010
+93369;Hotel;Jardín Botánico Hotel Boutique;Extramurs, Valencia;-0.386800020933151,39.4747588538388;46008
+93646;Hotel;Sercotel Sorolla Palace;Valencia;-0.401709079742432,39.495335683265;46015
+93743;Hotel;Checkin Valencia;Camins al Grau, Valencia;-0.346954464912415,39.4643563373016;46022
+93823;Hotel;Hospes Palau de La Mar;Eixample, Valencia;-0.366586893796921,39.4710330516077;46004
+93856;Hotel;Sweet Hotel Continental;Ciutat Vella, Valencia;-0.374559760093689,39.4697772694724;46002
+94163;Hotel;Vincci Palace;Ciutat Vella, Valencia;-0.371268689632416,39.4728540507301;46003
+94652;Hotel;Hotel Beleret;Valencia;-0.425091236829758,39.5006186401055;46035
+96737;Hotel;Holiday Inn Express Ciudad de las Ciencias;Quatre Carreres, Valencia;-0.358284115791321,39.4511563204462;46013
+96838;Hotel;Hotel Medium Valencia;Quatre Carreres, Valencia;-0.363136231899261,39.4561164571802;46013
+97069;Hotel;Blanq Carmen Hotel;Ciutat Vella, Valencia;-0.377393513917923,39.4800806387045;46003
+273130;Hotel;Casual de la Música Valencia;Ciutat Vella, Valencia;-0.378859341144562,39.4700071010383;46001
+274818;Hotel;Sweet Hotel Renasa;El Pla del Real, Valencia;-0.355263948440552,39.4780807470759;46010
+274963;Hotel;Senator Parque Central Hotel;Eixample, Valencia;-0.375477075576782,39.4574480746338;46006
+290493;Hotel;Melia Valencia;Benicalap, Valencia;-0.401277244091034,39.494700252591;46015
+305447;Hotel;MD Modern Hotel - Jardines;Eixample, Valencia;-0.361691862344742,39.464117168803;46005
+331871;Hotel;Primus Valencia;Camins al Grau, Valencia;-0.345542281866074,39.4577949536919;46023
+348132;Hotel;Caro Hotel;Ciutat Vella, Valencia;-0.372019708156586,39.4759317311132;46003
+403586;Hotel;Hotel Gabbeach;Poblados marítimos, Valencia;-0.323658138513565,39.4642424476428;46011
+408511;Hotel;Hotel Alkazar;Ciutat Vella, Valencia;-0.374381393194199,39.4688651826659;46002
+483261;Hotel;Hotel Malcom and Barret;Quatre Carreres, Valencia;-0.371004492044449,39.4507089588001;46013
+538056;Hotel;Casual de las Artes Valencia;Camins al Grau, Valencia;-0.355919748544693,39.4670264787077;46021
+572187;Hotel;Casual del Cine Valencia;Ciutat Vella, Valencia;-0.377622842788696,39.4690815584838;46002
+754329;Hotel;Ilunion Valencia 4;Benicalap, Valencia;-0.397921800613403,39.4915354315626;46015
+1106307;Hotel;Valencia Suits You Citytel;Ciutat Vella, Valencia;-0.36809116627046,39.4739624278856;46003
+1117150;Hotel;AC Hotel Colon Valencia;Eixample, Valencia;-0.374372470232629,39.4673117440328;46004
+1173270;Hotel;Ad Hoc Carmen;Ciutat Vella, Valencia;-0.376230699999951,39.4775181;46003
+1279484;Hotel;Vincci Mercat;Ciutat Vella, Valencia;-0.378975500000024,39.4721912;46001
+1281710;Hotel;Hotel Boutique Balandret;Poblados marítimos, Valencia;-0.323607906745906,39.4639382414638;46011
+1301731;Hotel;Hotel Olympia Universidades;Benimaclet, Valencia;-0.363192558288574,39.4852426190732;46020
+1307718;Hotel;Hotel San Lorenzo Boutique;Ciutat Vella, Valencia;-0.374922234358564,39.4780386945318;46003
+1394168;Hotel;One Shot Colón 46;Eixample, Valencia;-0.3716005,39.4692545;46004
+1619029;Hotel;MYR Hotel Plaza Mercado & Spa;Ciutat Vella, Valencia;-0.377597421088012,39.4733648433726;46001
+1710241;Hotel;Casual Vintage Valencia;Ciutat Vella, Valencia;-0.37655632942915,39.471297560124;46002
+1736257;Hotel;Cathedral Suites Hotel;Ciutat Vella, Valencia;-0.374787153372949,39.4748045479585;46003
+1741479;Hotel;Hotel El Siglo;Ciutat Vella, Valencia;-0.376085900000021,39.4738758;46001
+2118880;Hotel;MARQUÉS HOUSE 4* SUP;Ciutat Vella, Valencia;-0.375408992558846,39.4729746890462;46002
+2274203;Hotel;One Shot Mercat 09;Ciutat Vella, Valencia;-0.37812560178304,39.4720668663669;46001
+2334726;Hotel;Boutique Creative Rooms;Ciutat Vella, Valencia;-0.37696436047554,39.4715802492539;46002
+2391685;Hotel;MD Design Hotel - Portal del Real;Ciutat Vella, Valencia;-0.372259500000041,39.477008;46003
+3533887;Hotel;Opera House Valencia B&B;Camins al Grau, Valencia;-0.357392943620653,39.4629949946846;46023
+3828811;Hotel;NH Collection Colón Valencia;Eixample, Valencia;-0.372448,39.468446;46004
+4019381;Hotel;Hotel Valencia Alameda 41;Camins al Grau, Valencia;-0.352170682668657,39.459022128471;46023
+4211140;Hotel;Reina Rooms;Ciutat Vella, Valencia;-0.375042,39.474259;46003
+4533007;Hotel;YOU & CO. Saler Beach Boutique;Valencia;-0.332502765251093,39.3832848776198;46012
+4639648;Hotel;Palacio Vallier 5*;Ciutat Vella, Valencia;-0.37691,39.476703;46003
+4838858;Hotel;Hotel Cosmo;Ciutat Vella, Valencia;-0.377234,39.47273;46001
+5142800;Hotel;Casual Socarrat Valencia;Ciutat Vella, Valencia;-0.371804,39.47298;46003
+5159105;Hotel;Hotel Helen Berger; Ciutat Vella, Valencia;-0.372526,39.472235;46003
+5213598;Hotel;YOU & CO Quart Boutique; Extramurs, Valencia;-0.386813,39.474691;46008
+5219046;Hotel;Nest Style Valencia;Camins al Grau, Valencia;-0.352955,39.466163;46021
+5250762;Hotel;Lindala;Poblados marítimos, Valencia;-0.333976,39.464771;46011
+
