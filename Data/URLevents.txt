@@ -1,0 +1,12 @@
+# URL events used to get events information
+https://www.visitvalencia.com/eventos
+https://www.lovevalencia.com/agenda
+https://ocio.levante-emv.com/agenda/valencia/
+https://www.feriavalencia.com/visitar/eventos/
+https://www.ticketmaster.es/musica/
+https://www.ticketmaster.es/festivales/
+https://www.ticketmaster.es/deportes/
+https://www.ticketmaster.es/arte-y-teatro/
+https://www.feriavalencia.com/visitar/eventos/
+http://www.fdmvalencia.es/es/agenda/
+https://lamostradevalencia.com/
