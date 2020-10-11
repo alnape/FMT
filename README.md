@@ -6,5 +6,5 @@ To carry out this project, room prices were collected making a daily scrap of th
 social events that took place in the city by consulting many different sites on the web.
 You can refer to www.booking.com to better understand booking dataset.
 
--Summary.pdf: Powerpoint presentation about the FMT.
--Detecting events through hotel room prices.pdf: FMT explanation.
+- Summary.pdf: Powerpoint presentation about the FMT.  
+- Detecting events through hotel room prices.pdf: FMT explanation.
